@@ -1,0 +1,40 @@
+.header {
+    position: sticky;
+    top: 0;
+    min-height: 60px;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+    background-color: black;
+}
+
+.logo {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    padding-left: 40px;
+}
+
+.header-link {
+    display: flex;
+}
+
+.header-link ul li {
+    list-style: none;
+    display: inline-block;
+    font-size: 18px;
+}
+
+.header-link ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    padding: 0 15px;
+}
+
+.header-link ul li a:hover {
+    color: #ecec88;
+}
